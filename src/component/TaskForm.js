@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './TaskForm.css';
+
+
 const TaskForm = ({ addTask }) => {
   const [text, setText] = useState('');
 
@@ -7,7 +9,7 @@ const TaskForm = ({ addTask }) => {
     e.preventDefault();
     if (text.trim()) {
       addTask({ id: Date.now(), text, completed: false });
-      setText(''); 
+      setText('');
     }
   };
 
