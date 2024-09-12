@@ -2,9 +2,7 @@ span {
     font-size: 16px;
   }
   
-  span.completed {
-    text-decoration: line-through;
-  }
+ 
   
   button.delete {
     background-color: #dc3545;
